@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_swathida_byte_test_harness_1731659016881-push-trigger-input-set
+  identifier: Build_swathida_byte_test_harness_1731659016881pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: commentonpr
+  pipeline:
+    identifier: Build_swathida_byte_test_harness_1731659016881
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
