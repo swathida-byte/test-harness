@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_swathida_byte_test_harness_1731659642307-pr-trigger-input-set
+  identifier: Build_swathida_byte_test_harness_1731659642307prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: commentonpr
+  pipeline:
+    identifier: Build_swathida_byte_test_harness_1731659642307
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
