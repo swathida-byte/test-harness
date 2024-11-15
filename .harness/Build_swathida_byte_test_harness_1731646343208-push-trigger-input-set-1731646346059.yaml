@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_swathida_byte_test_harness_1731646343208-push-trigger-input-set
+  identifier: Build_swathida_byte_test_harness_1731646343208pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: helloworld
+  pipeline:
+    identifier: Build_swathida_byte_test_harness_1731646343208
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
