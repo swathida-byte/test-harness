@@ -1,0 +1,14 @@
+inputSet:
+  name: hello-word
+  identifier: helloword
+  orgIdentifier: default
+  projectIdentifier: helloworld
+  pipeline:
+    identifier: Build_swathida_byte_test_harness_1731646343208
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
