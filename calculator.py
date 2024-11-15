@@ -11,7 +11,6 @@ def main():
     except ValueError:
         print("Invalid input! Please enter numeric values.")
         return
-
     # Calculate the sum
     result = num1 + num2
 
